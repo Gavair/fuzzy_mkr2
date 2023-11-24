@@ -10,7 +10,7 @@ def main():
     st.title("Інтерфейс оцінки співробітника")
     st.header("Рівень навичок")
 
-    low_skills = int(st.text_input("Низькі навички", value=2))
+    low_skills = int(st.text_input("Слабкі навички", value=2))
     basic_skills = int(st.text_input("Базові навички", value=2))
     intermediate_skills = int(st.text_input("Середні навички", value=2))
     proficient_skills = int(st.text_input("Високі навички", value=2))
@@ -18,7 +18,7 @@ def main():
     expert_skills = int(st.text_input("Експертні навички", value=2))
 
     grades = (
-        ["Низькі навички"] * low_skills
+        ["Слабкі навички"] * low_skills
         + ["Базові навички"] * basic_skills
         + ["Середні навички"] * intermediate_skills
         + ["Високі навички"] * proficient_skills
